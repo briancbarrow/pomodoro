@@ -1,0 +1,84 @@
+/*
+http://colorschemedesigner.com/csd-3.5/#0p61Ow0w0w0w0
+
+.all-cont{
+  max-width: 1000px;
+}
+
+*/
+
+body {
+  text-align: center;
+  padding-top: 10px;
+  background-color: #333;
+  color: white;
+  font-family: 'Sanchez';
+}
+
+
+
+.center {
+  text-align: center;
+  color: #FF9A00;
+}
+
+.top-cont {
+  text-align: center;
+  color: #FF4141;
+  
+}
+
+.timer-cont{
+  position: relative;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: solid;
+  margin-top: 15%;
+  line-height: 250px;
+  color: #FFB441;
+ }
+
+/*
+.timer-cont:hover {
+  background-color: #FF7575;
+  border-color: #AA0000;
+  color: black;
+ }
+
+@media (min-width: 768px)
+.timer-cont {
+    margin-top: 50px;
+}
+*/
+
+#countTime {
+  font-size: 4em;
+}
+
+#timer-add, #break-add {
+  color: #35D1B7;
+  font-size: 25px;
+}
+
+#timer-minus, #break-minus {
+  color: #35D1B7;
+  font-size: 25px;
+}
+
+#timer, #timer-break{
+  color: #FFB441;
+  font-size: 25px;
+}
+
+.btn-number{
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: black;
+  height: 40px;
+  width: 50px;
+  text-align: center;
+  border-color: black;
+}
+
